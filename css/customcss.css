@@ -1,0 +1,14 @@
+.navbar-brand{
+    color: rgb(181,181,223) !important;
+}
+.nav-link{
+    color:rgb(181,181,223) !important;
+}
+.post-preview a:hover{
+    text-decoration: underline;
+}
+.post-subtitle{
+    font-weight: 200 !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}

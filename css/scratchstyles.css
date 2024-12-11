@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1 {
+    color: black;
+    font-style: normal;
+}
+
+h2 {
+    color: gray;
+}
+
+h3 {
+    color: purple;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(136, 134, 134);
+    position: fixed;
+    right:7px;
+    left: 7px;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: black;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.main-content a{
+    text-decoration: none;
+}
+
+.main-content a:hover{
+    text-decoration: underline;
+}
+
+.sidebar{
+    background-color: rgb(136, 134, 134);
+    width: 135px;
+    height: 100%;
+    left: 7px;
+    top: 57px;
+    padding: 10px;
+    position: fixed;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+    background-color: white;
+    left: 170px;
+    right: 7px;
+    top: 57px;
+    position: absolute;
+}
